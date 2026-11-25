@@ -19,9 +19,9 @@ export const sendOtpEmail = async ({
 }) => {
   try {
     const info = await transporter.sendMail({
-      from: `"ABADY" <${env.appEmail}>`,
+      from: `"ziad" <${env.appEmail}>`,
       ...recipients,
-      subject: `ABADY - ${purpose}`,
+      subject: `ziad - ${purpose}`,
       html: emailTemplate({ purpose, otp, expireIn }),
       attachments: [
         {

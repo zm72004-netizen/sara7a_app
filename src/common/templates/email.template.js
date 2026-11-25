@@ -6,7 +6,7 @@ export const emailTemplate = ({ purpose, otp, expireIn }) => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABADY - Verification Code</title>
+    <title>ziad - Verification Code</title>
 </head>
 
 <body style="margin:0;padding:0;background-color:#09090B;font-family:Arial,Helvetica,sans-serif;">
@@ -28,7 +28,7 @@ export const emailTemplate = ({ purpose, otp, expireIn }) => {
                                     <td valign="middle" style="padding-right:14px;">
                                         <img
                                             src="cid:brand-logo"
-                                            alt="ABADY Logo"
+                                            alt="ziad Logo"
                                             width="54"
                                             height="54"
                                             style="display:block;width:54px;height:54px;border:0;border-radius:13px;"
@@ -37,7 +37,7 @@ export const emailTemplate = ({ purpose, otp, expireIn }) => {
 
                                     <td valign="middle" align="left">
                                         <div style="font-size:29px;font-weight:800;letter-spacing:5px;color:#FAFAFA;line-height:1.2;">
-                                            ABADY
+                                            ziad
                                         </div>
 
                                         <div style="margin-top:6px;font-size:9px;letter-spacing:2.5px;color:#A1A1AA;">
